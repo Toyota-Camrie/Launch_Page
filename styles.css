@@ -1,0 +1,181 @@
+/* Style sheet for launch page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    margin-top: 16px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/* Logo */
+img {
+    display: block;
+    margin: 4px auto;
+}
+
+.introduction {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Viraly Information Section */
+.description {
+    width: 100%;
+    background-color: rgba(209, 209, 209, 1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.description h3 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.description p {
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+/* Checkbox and Header Section */
+#check_header {
+    padding-top: 16px;
+    padding-left: 16px;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+#the_list {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+
+/* Join Viraly Text, Description, and Button */
+#community {
+    background-color: rgba(240, 242, 246, 1);
+    padding-bottom: 4px;
+}
+
+#revolution {
+    padding-top: 32px;
+    margin-bottom: 4px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+#prelaunch {
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-style: italic;
+    color: rgba(1, 167, 190, 1);
+    padding-bottom: 32px;
+}
+
+/* Sign up Link */
+
+#viraly_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#viraly_link button {
+    background-color: rgba(1, 167, 190, 1);
+    color: white;
+    padding: 16px 24px;
+    border-radius: 8px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+#viraly_link button:hover {
+    background-color: white;
+    border: 4px solid rgba(1, 167, 190, 1);
+    color: rgba(1, 167, 190, 1);
+}
+
+/* Text after Link */
+#after {
+    text-align: center;
+    padding-left: 128px;
+    padding-right: 128px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/* Footer Content */
+
+footer {
+    display: block;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(112, 112, 112, 0.6);
+}
+
+.summary h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    padding-left: 16px;
+    padding-top: 16px;
+    padding-bottom: 4px;
+}
+
+.summary p {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    padding-left: 12px;
+}
+
+.summary p:last-child {
+    padding-bottom: 32px;
+}
+
+/* Styles for Social Media links */
+.social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.social_media a {
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.social_media a:last-child {
+    padding-left: 4px;
+}
+
+/* Copyright */
+#copyright {
+    text-align: center;
+    padding-bottom: 8px;
+}
